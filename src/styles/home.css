@@ -1,0 +1,109 @@
+.home {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.home h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.home p {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.home-buttons {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  background: #1e90ff;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #006ad1;
+}
+
+.btn.secondary {
+  background: #4caf50;
+}
+
+.btn.secondary:hover {
+  background: #3d9142;
+}
+
+/* ============================= */
+/* 📱 Responsive Design Section */
+/* ============================= */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .home {
+    padding: 50px 15px;
+  }
+
+  .home h1 {
+    font-size: 2rem;
+  }
+
+  .home p {
+    font-size: 1rem;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 768px) {
+  .home {
+    padding: 40px 10px;
+  }
+
+  .home h1 {
+    font-size: 1.8rem;
+  }
+
+  .home p {
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 250px;
+    padding: 10px 20px;
+  }
+
+  .home-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Very Small Devices (Phones < 480px) */
+@media (max-width: 480px) {
+  .home h1 {
+    font-size: 1.6rem;
+  }
+
+  .home p {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+  }
+}
