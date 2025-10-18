@@ -47,7 +47,7 @@ const ItineraryBuilder = () => {
         />
         <input
           type="number"
-          placeholder="Number xof Days(max up to 10 days)"
+          placeholder="Number of Days(max up to 10 days)"
           value={days}
           onChange={(e) => setDays(e.target.value)}
         />
